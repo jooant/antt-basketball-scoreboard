@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="teams">
+                <div class="team-wrapper">
+                    <h3>HOME</h3>
+                    <div class="score-wrapper">
+                        <span class="score" id="home-score">0</span>
+                    </div>
+                    <div class="point-containers">
+                        <button class="points" onclick="add1Home()">+1</button>
+                        <button class="points" onclick="add2Home()">+2</button>
+                        <button class="points" onclick="add3Home()">+3</button>
+                    </div>
+                </div>
+                <div id="period-container">
+                    <h4>PERIOD</h4>
+                    <div class="period-wrapper">
+                        <span id="period-el">0</span>
+                    </div>
+                    <button id="btn-period" onclick="addPeriod()">PERIOD +1</button>
+                </div>
+                <div class="team-wrapper">
+                    <h3>GUEST</h3>
+                    <div class="score-wrapper">
+                        <span class="score" id="away-score">0</span>
+                    </div>
+                    <div class="point-containers">
+                        <button class="points"  onclick="add1Away()">+1</button>
+                        <button class="points"  onclick="add2Away()">+2</button>
+                        <button class="points" onclick="add3Away()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <button id="btn-new" onclick="reset()">New game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

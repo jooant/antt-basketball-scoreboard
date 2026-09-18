@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'CursedTimer';
+    src: url('font/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    width: 500px;
+    margin: 10px auto;
+}
+h3, h4{
+    text-align: center;
+    margin: 0;
+    width: 149px;
+    height: 38px;
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-weight: bold;
+}
+
+h3{
+    font-size: 40px;
+}
+
+h4{
+    margin-top: 60px;
+    font-size: 24px;
+}
+
+.container {
+    background-color: rgb(20, 20, 20);
+    border-radius: 8px;
+    width: 575px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.teams{
+    width: 575px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-wrapper{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score-wrapper{
+    width: 155px;
+    height: 120px;
+}
+
+.score-wrapper, .period-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #292727;
+}
+
+.period-wrapper{
+    width: 50px;
+    height: 75px;
+    margin-top: 6px;
+}
+
+.score, .points, #period-el{
+    font-family: 'CursedTimer';
+}
+
+
+
+.score{
+    transform: translateY(8px);
+    color: #F94F6D;
+    font-size: 90px; 
+}
+
+#period-el{
+    transform: translateY(5px);
+    color: #33ff52;
+    font-size: 45px; 
+}
+
+.points{
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+}
+.points, #btn-period{
+    border-radius: 5px;
+    border: 2px solid #EEEEEE;
+    background-color: transparent;
+    color: #EEEEEE;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#period-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.point-containers{
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.points:hover, .points:active, #btn-period:hover, #btn-period:active{
+    background-color: #EEEEEE;
+    color:#080001;
+}
+
+.points:hover, #btn-period:hover{
+    transform: scale(1.1);
+}
+
+.points:active, #btn-period:active{
+    transform: scale(0.93);
+}
+
+#btn-new{
+    margin-bottom: 4px;
+    padding: 10px 20px;
+    background-color: #B0201F;
+    border: 2px solid #EEEEEE;
+    border-radius: 20px;
+    color:#EEEEEE;
+    font-size: 16px;
+    font-family: 'Verdana';
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#btn-new:hover {
+    transform: scale(1.05);
+}
+
+#btn-new:active{
+    background-color: #EEEEEE;
+    border: 2px solid #B0201F; 
+    color: #B0201F;  
+}
+
+#btn-period{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
