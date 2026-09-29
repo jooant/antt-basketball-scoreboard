@@ -1,4 +1,5 @@
-<img width="1916" height="912" alt="image" src="https://github.com/user-attachments/assets/5184e049-68dc-4eb7-879b-803fd805a234" /># Basketball Scoreboard
+<img width="572" height="384" alt="image" src="https://github.com/user-attachments/assets/128b3bde-4dfb-4abe-8eab-02ad010c0d18" />
+
 
 A simple basketball scoreboard built with plain HTML, CSS, and JavaScript, used to track a live score between a **Home** team and an **Away** team.
 
