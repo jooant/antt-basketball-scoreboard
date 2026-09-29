@@ -1,4 +1,4 @@
-# Basketball Scoreboard
+<img width="1916" height="912" alt="image" src="https://github.com/user-attachments/assets/5184e049-68dc-4eb7-879b-803fd805a234" /># Basketball Scoreboard
 
 A simple basketball scoreboard built with plain HTML, CSS, and JavaScript, used to track a live score between a **Home** team and an **Away** team.
 
@@ -43,4 +43,4 @@ Then either:
 - Allow custom team names instead of fixed Home/Away
 
 ## Author
-- Antt
+- Antt, https://github.com/jooant
